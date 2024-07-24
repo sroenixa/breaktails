@@ -1,0 +1,1 @@
+export function breaktails(obj: Record<string, string>): string;
