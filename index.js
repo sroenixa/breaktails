@@ -1,4 +1,4 @@
-function breaktails(obj) {
+function _bts(obj) {
     if (typeof obj !== 'object' || obj === null) {
         throw new Error('Argument must be an object');
       }
@@ -16,4 +16,4 @@ function breaktails(obj) {
         .join(' ');
   };
 
-  module.exports = { breaktails }
+  module.exports = { _bts }
