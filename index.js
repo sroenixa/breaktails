@@ -16,4 +16,4 @@ function breaktails(obj) {
         .join(' ');
   };
 
-  module.exports = breaktails
+  module.exports = { breaktails }

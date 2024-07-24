@@ -1,4 +1,4 @@
-const breaktails = require('./index');
+const {breaktails} = require('./index');
 
 console.log(breaktails({
     glb:'flex flex-col',
