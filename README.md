@@ -18,7 +18,7 @@ yarn add breaktails
 1. Import the `breaktails` function into your JavaScript or TypeScript file:
 
     ```javascript
-    import { breaktails } from 'breaktail';
+    import { _bts } from 'breaktail';
     ```
 
 2. Define an object with responsive prefixes and class names:
@@ -43,7 +43,7 @@ yarn add breaktails
 
     ```javascript
     function App() {
-      const result = breaktails(inputObj);
+      const result = _bts(inputObj);
 
       return (
         <div className="App">
@@ -60,7 +60,7 @@ yarn add breaktails
 You can also use `breaktails` with different scenarios, such as dynamically generated class names or combined with other utility functions. Here’s an example:
 
 ```javascript
-import { breaktails } from 'breaktails';
+import { _bts } from 'breaktails';
 
 const responsiveClasses = {
   glb: 'container mx-auto',
@@ -78,6 +78,6 @@ const dynamicClasses = {
   xl: 'text-2xl'
 };
 
-const result = breaktails(responsiveClasses);
+const result = _bts(responsiveClasses);
 console.log(result);
 // Output: 'container mx-auto sm:p-4 md:p-8 lg:p-16 xl:p-24'

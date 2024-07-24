@@ -1,1 +1,1 @@
-export function breaktails(obj: Record<string, string>): string;
+export function _bts(obj: Record<string, string>): string;
